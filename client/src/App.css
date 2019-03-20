@@ -1,0 +1,45 @@
+body {
+  background: black;
+}
+
+.main {
+  color: white;
+  margin-left: 10px;
+}
+
+#movie-wheel {
+  color: white;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-bottom: 15px;
+}
+
+img {
+  height:350px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+#title-card {
+  display: inline-block;
+  text-align: center;
+  margin-top: 15px;
+  width: 245px;
+  transition: all .4s ease-in-out;
+}
+
+#title-card:hover {
+  transform: scale(1.05);
+}
+
+.h5, h5 {
+  font-size: .85rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.h6, h6 {
+  font-size: .80rem;
+}
